@@ -43,22 +43,22 @@ Every module includes:
 ```
 devops-infra-modules/
 ├── modules/
-│   ├── vpc/
-│   │   ├── README.md          # Auto-generated
-│   │   ├── main.tf
-│   │   ├── variables.tf       # With validations
-│   │   ├── outputs.tf
-│   │   └── examples/
-│   │       ├── simple/
-│   │       └── production-3az/
-│   ├── iam-cross-account/
-│   ├── lambda-app/
-│   └── ...
-├── tests/                     # Terratest (Go)
-├── .github/workflows/
-│   ├── terraform-validate.yml
-│   └── terratest.yml
-└── CONTRIBUTING.md
+│    ├── vpc/
+│    │   ├── README.md          # Auto-generated
+│    │   ├── main.tf
+│    │   ├── variables.tf       # With validations
+│    │   ├── outputs.tf
+│    │   └── examples/
+│    │       ├── simple/
+│    │       └── production-3az/
+│    ├── iam-cross-account/
+│    ├── lambda-app/
+│    └── ...
+├──  tests/                     # Terratest (Go)
+├──  .github/workflows/
+│    ├── terraform-validate.yml
+│    └── terratest.yml
+└──  CONTRIBUTING.md
 ```
 ## 🚀 Usage
 
