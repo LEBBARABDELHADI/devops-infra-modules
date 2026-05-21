@@ -41,6 +41,7 @@ Every module includes:
 ## 📂 Structure
 
 ```
+devops-infra-modules/
 ├── modules/
 │   ├── vpc/
 │   │   ├── README.md          # Auto-generated
@@ -59,7 +60,6 @@ Every module includes:
 │   └── terratest.yml
 └── CONTRIBUTING.md
 ```
-
 ## 🚀 Usage
 
 ```hcl
