@@ -41,7 +41,6 @@ Every module includes:
 ## 📂 Structure
 
 ```
-devops-infra-modules/
 ├── modules/
 │   ├── vpc/
 │   │   ├── README.md          # Auto-generated
